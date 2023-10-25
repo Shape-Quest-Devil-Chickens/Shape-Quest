@@ -41,6 +41,11 @@ body {
   animation: bounce 1s infinite;
 }
 
+.clearButton {
+  width: 220px;
+  background-color: #29ace5;
+}
+
 .shapebuttons:hover {
   animation: glow 1s infinite alternate;
 }
@@ -298,7 +303,6 @@ body {
   height: 60px;
   border-radius: 50%;
   background-color: white;
-
 
 }
 
