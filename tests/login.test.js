@@ -1,0 +1,1 @@
+// https://www.reddit.com/r/node/comments/tl0o28/help_what_is_the_point_of_mocking_in_jest/
