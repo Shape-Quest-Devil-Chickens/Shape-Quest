@@ -9,11 +9,8 @@ const GameContainer = () => {
 
     return (
         <div className="game-container">
-            {/* <GameHeader /> */}
-            {/* <ToolBar />
-            <GameBoard /> */}
             <ToolBar setSelectedShape={setSelectedShape} setSelectedColor={setSelectedColor} />
-            <GameBoard selectedShape={selectedShape} selectedColor={selectedColor} />
+            <GameBoard selectedShape={selectedShape} selectedColor={selectedColor}/>
         </div>
     );
 };

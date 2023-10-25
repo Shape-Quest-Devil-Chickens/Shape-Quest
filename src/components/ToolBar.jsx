@@ -8,7 +8,7 @@ const ToolBar = ({ setSelectedShape, setSelectedColor }) => {
         <div className="tool-bar">
             <ColorTools setSelectedColor={setSelectedColor} />
             {/* <ShapeTools color={color} /> */}
-            <ShapeTools setSelectedShape={setSelectedShape} />
+            <ShapeTools setSelectedShape={setSelectedShape}/>
         </div>
     );
 };

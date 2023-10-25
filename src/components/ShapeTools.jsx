@@ -13,12 +13,12 @@ import React from 'react';
 //     )
 // }
 
-function ShapeTools({ setSelectedShape }) {
+function ShapeTools({ setSelectedShape, setShapes }) {
 
 
     return (
         <section id='shapes'>
-            <button className='shapebuttons' id='square' onClick={() => setSelectedShape('square')}>Square</button>
+            <button className='shapebuttons' id='square' onClick={() => {setSelectedShape('square')}}>Square</button>
             <button className='shapebuttons' id='circle' onClick={() => setSelectedShape('circle')}>Circle</button>
             <button className='shapebuttons' id='rectangle' onClick={() => setSelectedShape('rectangle')}>Rectangle</button>
             {/* <button className='shapebuttons' id='triangle' onClick={() => setSelectedShape('triangle')}></button> */}
