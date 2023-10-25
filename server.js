@@ -11,8 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 
-
-mongoose.connect('mongodb+srv://shapequestuser:shapequest@cluster0.iecn0o7.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://aprilsandersa:amberlove@cluster0.cnyybxt.mongodb.net/usernames?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
 
 //serve static files
 app.use(express.static(path.join(__dirname, 'assets')));
