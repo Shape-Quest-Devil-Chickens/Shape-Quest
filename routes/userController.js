@@ -79,13 +79,16 @@ userController.signUp = async (req, res, next) => {
     res.status(400).json({ message: 'Incorrect password' });
     }
     } catch (err) {
-    console.error("Error logging in:", err);
-    res.status(500).json({ message: "Server side error during login" });
+    console.log("Error logging in:", err);
+    // res.status(500).json({ message: "Server side error during login" });
+    return next({
+        log: `Error logging in: ${err}`,
+        status: 500,
+        message: {err: `error while you logged`}
+        })
     }
     }
     
-
-
 
 
 module.exports = userController;

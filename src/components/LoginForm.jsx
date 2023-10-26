@@ -21,8 +21,9 @@ function LoginForm() {
 
         try {
             const response = await axios.post(API_ENDPOINT, loggedData);
+            
             console.log('responding data =>', response)
-            console.log("succesful login", response.data);
+            console.log("successful login", response.data);
 
             //navigate('/GameContainer');
             setLoggedIn(true);
