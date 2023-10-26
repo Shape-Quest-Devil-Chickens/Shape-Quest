@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 const User = require('../userModel')
 const bcrypt = require ('bcrypt')
 
-
 // userController.signUp = async (req, res, next) => {
 //     console.log(req.params)
 

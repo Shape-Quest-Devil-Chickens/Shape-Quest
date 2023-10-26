@@ -7,7 +7,6 @@ const GameBoard = ({ selectedShape, selectedColor, shapes, setShapes, color, set
     
     console.log("hi", shapes)
     // Whenever selectedShape changes, add it to shapes list
-
     // Refactor : import useEfferct to cleaner syntax
     // React.useEffect(() => {
     //     if (selectedShape) {
